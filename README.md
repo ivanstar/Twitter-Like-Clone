@@ -2,11 +2,11 @@
 This project involves creating microservices to produce functionality of a Twitter-Like message system. It is written as a separate Flask framework application under RESTful API attributes. It includes database technologies such as SQL(SQLite) and NoSQL(DynamoDB) to store user messages and their timeline feeds. Additionally, the server side associates with a API Gateway, load-balancing, and authenication. 
 
 Services Used:
-	1. DynamoDB local
-	2. SQLite
-	3. Flask 
-	4. Boto3
-	5. httpie 
+	*1. DynamoDB local
+	*2. SQLite
+	*3. Flask 
+	*4. Boto3
+	*5. httpie 
 
 How to dynamodb table is created:
 	***The dynamodb table is created from a separate py file called "create_table.py", the python file includes the schema used to initialized the database.
